@@ -2,6 +2,6 @@
 	<OutputDirectory>.</OutputDirectory>
 	<TemporaryOutputDirectory>_PackageInt</TemporaryOutputDirectory>
 	<Packages>
-		<Package>PackageDefinitions\eclair4151-airport-kdyl-eclair4151.xml</Package>
+		<Package>PackageDefinitions\RKPK.xml</Package>
 	</Packages>
 </Project>
