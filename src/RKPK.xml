@@ -1,6 +1,6 @@
 <?xml version="1.0"?>
 <FSData version="9.0">
-	<Airport name="Doylestown" ident="KDYL" lat="40.33330021109713" lon="-75.12261377299522" alt="119.75858353730291" magvar="0.000000" airportTestRadius="2000.00000000000000" applyFlatten="FALSE" isOnTIN="TRUE" starAirport="TRUE">
+	<Airport name="Gimhae Int'l airport" ident="RKPK" lat="40.33330021109713" lon="-75.12261377299522" alt="119.75858353730291" magvar="8.000000" airportTestRadius="2000.00000000000000" applyFlatten="FALSE" isOnTIN="TRUE" starAirport="TRUE">
 		<TaxiwayPoint groupIndex="270" index="1" type="NORMAL" orientation="FORWARD" lat="40.33633801282708" lon="-75.11917069287857"/>
 		<TaxiwayPoint groupIndex="271" index="2" type="NORMAL" orientation="FORWARD" lat="40.33652212365589" lon="-75.11949460320720"/>
 		<TaxiwayPoint groupIndex="272" index="3" type="HOLD_SHORT" orientation="REVERSE" lat="40.33657620888998" lon="-75.11965225658325"/>
