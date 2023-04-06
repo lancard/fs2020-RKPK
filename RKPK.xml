@@ -1,7 +1,11 @@
-<Project Version="2" Name="kdyl_eclair4151" FolderName="Packages">
+<?xml version="1.0" encoding="utf-8"?>
+<Project Version="2" Name="RKPK" FolderName="Packages" PublishingGroupFolderName="PublishingGroupsContent" MetadataFolderName="PackagesMetadata" PublishingGroupMetadataFolderName="PublishingGroupsMetadata">
 	<OutputDirectory>.</OutputDirectory>
 	<TemporaryOutputDirectory>_PackageInt</TemporaryOutputDirectory>
+	<PublishingGroupTemporaryOutputDirectory>_PublishingGroupInt</PublishingGroupTemporaryOutputDirectory>
 	<Packages>
-		<Package>PackageDefinitions\RKPK.xml</Package>
+		<Package>PackageDefinitions\thekoreans-airport-rkpk-busan.xml</Package>
 	</Packages>
+	<PublishingGroups/>
 </Project>
+

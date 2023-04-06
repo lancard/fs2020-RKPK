@@ -1,0 +1,9 @@
+<?xml version="1.0"?>
+<FSData version="9.0">
+	<Airport displayName="Gimhae Intl" groupID="4294967295" groupGenerated="FALSE" name="Gimhae Intl" ident="RKPK" lat="35.18055550754070" lon="128.93805563449860" alt="3.04800009727478" magvar="0.000000" trafficScalar="1.000000" airportTestRadius="2000.00000000000000" applyFlatten="FALSE" isOnTIN="FALSE" tinColorCorrection="TRUE">
+		<Aprons/>
+		<PaintedElements/>
+		<ApronEdgeLights/>
+	</Airport>
+</FSData>
+

@@ -1,7 +1,8 @@
-<AssetPackage Name="RKPK" Version="0.1.0">
+<?xml version="1.0" encoding="utf-8"?>
+<AssetPackage Version="0.1.0">
 	<ItemSettings>
 		<ContentType>SCENERY</ContentType>
-		<Title>RKPK airport</Title>
+		<Title>RKPK - Gimhae int&apos;l airport</Title>
 		<Manufacturer/>
 		<Creator>Sungho Kim</Creator>
 	</ItemSettings>
@@ -10,13 +11,14 @@
 		<CanBeReferenced>false</CanBeReferenced>
 	</Flags>
 	<AssetGroups>
-		<AssetGroup Name="placeholder-name">
+		<AssetGroup Name="scenery">
 			<Type>BGL</Type>
 			<Flags>
 				<FSXCompatibility>false</FSXCompatibility>
 			</Flags>
-			<AssetDir>src\</AssetDir>
-			<OutputDir>scenery\</OutputDir>
+			<AssetDir>PackageSources\Scenery\airport-rkpk-busan\scenery\</AssetDir>
+			<OutputDir>Scenery\airport-rkpk-busan\scenery\</OutputDir>
 		</AssetGroup>
 	</AssetGroups>
 </AssetPackage>
+
