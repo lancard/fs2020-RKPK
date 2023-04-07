@@ -11,6 +11,22 @@
 		<CanBeReferenced>false</CanBeReferenced>
 	</Flags>
 	<AssetGroups>
+		<AssetGroup Name="ContentInfo">
+			<Type>ContentInfo</Type>
+			<Flags>
+				<FSXCompatibility>false</FSXCompatibility>
+			</Flags>
+			<AssetDir>PackageDefinitions\thekoreans-airport-rkpk-busan\ContentInfo\</AssetDir>
+			<OutputDir>ContentInfo\thekoreans-airport-rkpk-busan\</OutputDir>
+		</AssetGroup>
+		<AssetGroup Name="mymodellib">
+			<Type>ModelLib</Type>
+			<Flags>
+				<FSXCompatibility>false</FSXCompatibility>
+			</Flags>
+			<AssetDir>PackageSources\Scenery\airport-rkpk-busan\modellib\</AssetDir>
+			<OutputDir>Scenery\airport-rkpk-busan\modellib\</OutputDir>
+		</AssetGroup>
 		<AssetGroup Name="scenery">
 			<Type>BGL</Type>
 			<Flags>
