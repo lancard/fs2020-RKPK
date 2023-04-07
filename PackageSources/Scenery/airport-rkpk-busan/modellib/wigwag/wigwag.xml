@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ModelInfo guid="{1921861e-f6ea-4ac2-8141-59730e37f5d2}" version="1.1">
+	<LODS>
+		<LOD minSize="0" ModelFile="wigwag.gltf"/>
+	</LODS>
+
+	<Animation guid="{273b47c5-2550-4b12-b986-0a6381162091}" type="Standard" loop ="True" />
+</ModelInfo>
