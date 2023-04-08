@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<ModelInfo guid="{92332b99-324d-4211-9b77-9b0b89fe4622}" version="1.1">
-	<LODS>
-		<LOD minSize="0" ModelFile="testani.gltf"/>
-	</LODS>
-
-	<Animation guid="{bf3a98ae-2679-4bb8-a617-800a7450337a}" name="testani" type="Standard" typeParam="Autoplay" typeParam2="testani" loop="True" />
-</ModelInfo>
