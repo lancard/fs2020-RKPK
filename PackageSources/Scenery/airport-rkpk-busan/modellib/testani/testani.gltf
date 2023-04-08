@@ -9,8 +9,7 @@
         "version" : "2.0"
     },
     "extensionsUsed" : [
-        "ASOBO_normal_map_convention",
-        "ASOBO_unique_id"
+        "ASOBO_normal_map_convention"
     ],
     "scene" : 0,
     "scenes" : [
@@ -23,11 +22,6 @@
     ],
     "nodes" : [
         {
-            "extensions" : {
-                "ASOBO_unique_id" : {
-                    "id" : "Cube"
-                }
-            },
             "mesh" : 0,
             "name" : "Cube",
             "translation" : [
