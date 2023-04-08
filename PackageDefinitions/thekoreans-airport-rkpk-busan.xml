@@ -19,6 +19,14 @@
 			<AssetDir>PackageDefinitions\thekoreans-airport-rkpk-busan\ContentInfo\</AssetDir>
 			<OutputDir>ContentInfo\thekoreans-airport-rkpk-busan\</OutputDir>
 		</AssetGroup>
+		<AssetGroup Name="mymateriallibs">
+			<Type>MaterialLib</Type>
+			<Flags>
+				<FSXCompatibility>false</FSXCompatibility>
+			</Flags>
+			<AssetDir>PackageSources\Scenery\airport-rkpk-busan\materiallibs\</AssetDir>
+			<OutputDir>MaterialLibs\airport-rkpk-busan\</OutputDir>
+		</AssetGroup>
 		<AssetGroup Name="mymodellib">
 			<Type>ModelLib</Type>
 			<Flags>
