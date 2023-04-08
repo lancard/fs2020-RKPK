@@ -10,6 +10,7 @@
     },
     "extensionsUsed" : [
         "ASOBO_normal_map_convention",
+        "ASOBO_unique_id",
         "KHR_materials_specular",
         "KHR_materials_ior"
     ],
@@ -18,53 +19,34 @@
         {
             "name" : "Scene",
             "nodes" : [
-                4
+                0,
+                1
             ]
         }
     ],
     "nodes" : [
         {
+            "extensions" : {
+                "ASOBO_unique_id" : {
+                    "id" : "body"
+                }
+            },
             "mesh" : 0,
-            "name" : "node1"
+            "name" : "body"
         },
         {
+            "extensions" : {
+                "ASOBO_unique_id" : {
+                    "id" : "wigwag"
+                }
+            },
             "mesh" : 1,
-            "name" : "node4"
-        },
-        {
-            "children" : [
-                1
-            ],
-            "name" : "node3",
+            "name" : "wigwag",
             "translation" : [
                 0,
-                -1.1275399923324585,
+                1.1299999952316284,
                 0
             ]
-        },
-        {
-            "children" : [
-                2
-            ],
-            "name" : "node2",
-            "rotation" : [
-                0,
-                -1,
-                0,
-                4.371138828673793e-08
-            ],
-            "scale" : [
-                -1,
-                -1,
-                -1
-            ]
-        },
-        {
-            "children" : [
-                0,
-                3
-            ],
-            "name" : "node0"
         }
     ],
     "animations" : [
@@ -78,7 +60,7 @@
                     }
                 }
             ],
-            "name" : "node4Action",
+            "name" : "wigwag",
             "samplers" : [
                 {
                     "input" : 8,
@@ -245,19 +227,19 @@
         {
             "bufferView" : 8,
             "componentType" : 5126,
-            "count" : 20,
+            "count" : 21,
             "max" : [
                 0.8333333333333334
             ],
             "min" : [
-                0.041666666666666664
+                0
             ],
             "type" : "SCALAR"
         },
         {
             "bufferView" : 9,
             "componentType" : 5126,
-            "count" : 20,
+            "count" : 21,
             "type" : "VEC3"
         }
     ],
@@ -312,13 +294,13 @@
         },
         {
             "buffer" : 0,
-            "byteLength" : 80,
+            "byteLength" : 84,
             "byteOffset" : 32236
         },
         {
             "buffer" : 0,
-            "byteLength" : 240,
-            "byteOffset" : 32316
+            "byteLength" : 252,
+            "byteOffset" : 32320
         }
     ],
     "samplers" : [
@@ -329,7 +311,7 @@
     ],
     "buffers" : [
         {
-            "byteLength" : 32556,
+            "byteLength" : 32572,
             "uri" : "wigwag.bin"
         }
     ]
