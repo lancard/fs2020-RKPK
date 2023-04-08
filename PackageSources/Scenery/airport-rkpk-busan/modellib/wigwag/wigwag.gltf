@@ -60,7 +60,7 @@
                     }
                 }
             ],
-            "name" : "wigwagAction",
+            "name" : "wigwag",
             "samplers" : [
                 {
                     "input" : 8,
