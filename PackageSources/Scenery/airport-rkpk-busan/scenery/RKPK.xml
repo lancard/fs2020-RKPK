@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <FSData version="9.0">
 	<!--SceneryObject name: buildings-->
-	<SceneryObject lat="35.18225378825373" lon="128.93024475853056" alt="0.00000000000000" pitch="0.000314" bank="-0.000314" heading="174.827899" imageComplexity="VERY_SPARSE" altitudeIsAgl="TRUE" snapToGround="TRUE" snapToNormal="FALSE">
+	<SceneryObject lat="35.18244117264413" lon="128.93061573250745" alt="0.00000000000000" pitch="0.000314" bank="-0.000314" heading="174.827899" imageComplexity="VERY_SPARSE" altitudeIsAgl="TRUE" snapToGround="TRUE" snapToNormal="FALSE">
 		<LibraryObject name="{EF100A09-275E-47EA-ACF3-14F69DB0E1AE}" scale="1.000000"/>
 	</SceneryObject>
 	<!--SceneryObject name: cargo_terminal-->
@@ -1343,8 +1343,10 @@
 				<Vertex lat="35.16885973513130" lon="128.94510895013801"/>
 				<Vertex lat="35.16885001212360" lon="128.94525244831999"/>
 				<Vertex lat="35.16882319003340" lon="128.94536152481999"/>
-				<Vertex lat="35.16837392002340" lon="128.94612103700601"/>
-				<Vertex lat="35.16848623752590" lon="128.94641652703299"/>
+				<Vertex lat="35.16852488798522" lon="128.94585385194185"/>
+				<Vertex lat="35.16817301354123" lon="128.94585083640479"/>
+				<Vertex lat="35.16814455155186" lon="128.94651498390377"/>
+				<Vertex lat="35.16839934245801" lon="128.94654938341861"/>
 				<Vertex lat="35.16695637255910" lon="128.95070448517799"/>
 				<Vertex lat="35.16885269433260" lon="128.95177200436601"/>
 				<Vertex lat="35.16890566796060" lon="128.95177111029599"/>
