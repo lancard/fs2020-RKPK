@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ModelInfo guid="{818a3f45-af13-40f6-97cd-53b8f606357d}" version="1.1">
+    <LODS>
+        <LOD minSize="0" ModelFile="lightpole.gltf"/>
+    </LODS>
+</ModelInfo>
