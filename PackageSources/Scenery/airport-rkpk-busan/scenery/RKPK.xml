@@ -1,27 +1,43 @@
 <?xml version="1.0"?>
 <FSData version="9.0">
 	<!--SceneryObject name: LSZH_VOR-->
-	<SceneryObject groupIndex="3" lat="35.19911709873925" lon="128.93559212556545" alt="0.00000000000000" pitch="0.000000" bank="0.000000" heading="-179.999995" imageComplexity="VERY_SPARSE" altitudeIsAgl="TRUE" snapToGround="TRUE" snapToNormal="FALSE">
+	<SceneryObject displayName="KMH VOR" groupIndex="1" lat="35.19911709873925" lon="128.93559212556545" alt="0.00000000000000" pitch="0.000000" bank="0.000000" heading="-179.999995" imageComplexity="VERY_SPARSE" altitudeIsAgl="TRUE" snapToGround="TRUE" snapToNormal="FALSE">
 		<LibraryObject name="{30BC7859-A3A6-4CD8-8CCB-B51FB484BEBB}" scale="1.000000"/>
 	</SceneryObject>
 	<!--SceneryObject name: buildings-->
-	<SceneryObject lat="35.18244117264413" lon="128.93061573250745" alt="0.00000000000000" pitch="0.000314" bank="-0.000314" heading="174.827899" imageComplexity="VERY_SPARSE" altitudeIsAgl="TRUE" snapToGround="TRUE" snapToNormal="FALSE">
+	<SceneryObject parentGroupID="4" groupIndex="5" lat="35.18244117264413" lon="128.93061573250745" alt="0.00000000000000" pitch="0.000314" bank="-0.000314" heading="174.827899" imageComplexity="VERY_SPARSE" altitudeIsAgl="TRUE" snapToGround="TRUE" snapToNormal="FALSE">
 		<LibraryObject name="{EF100A09-275E-47EA-ACF3-14F69DB0E1AE}" scale="1.000000"/>
 	</SceneryObject>
 	<!--SceneryObject name: cargo_terminal-->
-	<SceneryObject groupIndex="4" lat="35.17882314391989" lon="128.94821793916302" alt="0.00000000000000" pitch="0.001544" bank="-0.001544" heading="174.383909" imageComplexity="VERY_SPARSE" altitudeIsAgl="TRUE" snapToGround="TRUE" snapToNormal="FALSE">
+	<SceneryObject parentGroupID="4" groupIndex="6" lat="35.17882314391989" lon="128.94821793916302" alt="0.00000000000000" pitch="0.001544" bank="-0.001544" heading="174.383909" imageComplexity="VERY_SPARSE" altitudeIsAgl="TRUE" snapToGround="TRUE" snapToNormal="FALSE">
 		<LibraryObject name="{0B6B0F24-4362-4681-BFBF-4D59290F6BC9}" scale="1.000000"/>
 	</SceneryObject>
 	<!--SceneryObject name: domestic_terminal-->
-	<SceneryObject groupIndex="1" lat="35.17031886727203" lon="128.94871390479065" alt="0.00000000000000" pitch="0.002309" bank="-0.002309" heading="114.411092" imageComplexity="VERY_SPARSE" altitudeIsAgl="TRUE" snapToGround="TRUE" snapToNormal="FALSE">
+	<SceneryObject parentGroupID="4" groupIndex="4" lat="35.17031886727203" lon="128.94871390479065" alt="0.00000000000000" pitch="0.002309" bank="-0.002309" heading="114.411092" imageComplexity="VERY_SPARSE" altitudeIsAgl="TRUE" snapToGround="TRUE" snapToNormal="FALSE">
 		<LibraryObject name="{5A74DE22-E3F3-4DF0-8BEF-3B974E78CE33}" scale="1.000000"/>
 	</SceneryObject>
 	<!--SceneryObject name: international_terminal-->
-	<SceneryObject groupIndex="12" lat="35.17314445060717" lon="128.94650188791536" alt="0.00000000000000" pitch="0.000567" bank="-0.000567" heading="173.889950" imageComplexity="VERY_SPARSE" altitudeIsAgl="TRUE" snapToGround="TRUE" snapToNormal="FALSE">
+	<SceneryObject parentGroupID="4" groupIndex="7" lat="35.17314445060717" lon="128.94650188791536" alt="0.00000000000000" pitch="0.000567" bank="-0.000567" heading="173.889950" imageComplexity="VERY_SPARSE" altitudeIsAgl="TRUE" snapToGround="TRUE" snapToNormal="FALSE">
 		<LibraryObject name="{745DA069-512A-426C-8817-ECE548F1617A}" scale="1.000000"/>
 	</SceneryObject>
 	<!--SceneryObject name: leadin-->
-	<SceneryObject groupIndex="2" lat="35.20778970775918" lon="128.93335401596843" alt="0.00000000000000" pitch="0.003039" bank="-0.001544" heading="-1.474440" imageComplexity="VERY_SPARSE" altitudeIsAgl="TRUE" snapToGround="TRUE" snapToNormal="FALSE">
+	<SceneryObject parentGroupID="3" groupIndex="3" lat="35.20375051615309" lon="128.89292141164958" alt="0.00000000000000" pitch="0.001544" bank="-0.001544" heading="-173.267474" imageComplexity="VERY_SPARSE" altitudeIsAgl="TRUE" snapToGround="TRUE" snapToNormal="FALSE">
+		<LibraryObject name="{D042C8B8-26BD-4E1D-895D-8A91FD9BA9D7}" scale="1.000000"/>
+	</SceneryObject>
+	<!--SceneryObject name: leadin-->
+	<SceneryObject parentGroupID="3" groupIndex="4" lat="35.20778970775918" lon="128.93335401596843" alt="0.00000000000000" pitch="0.003039" bank="-0.001544" heading="-1.474440" imageComplexity="VERY_SPARSE" altitudeIsAgl="TRUE" snapToGround="TRUE" snapToNormal="FALSE">
+		<LibraryObject name="{D042C8B8-26BD-4E1D-895D-8A91FD9BA9D7}" scale="1.000000"/>
+	</SceneryObject>
+	<!--SceneryObject name: leadin-->
+	<SceneryObject parentGroupID="3" groupIndex="2" lat="35.21542579274948" lon="128.89687753517353" alt="0.00000000000000" pitch="0.000854" bank="-0.000854" heading="-140.954436" imageComplexity="VERY_SPARSE" altitudeIsAgl="TRUE" snapToGround="TRUE" snapToNormal="FALSE">
+		<LibraryObject name="{D042C8B8-26BD-4E1D-895D-8A91FD9BA9D7}" scale="1.000000"/>
+	</SceneryObject>
+	<!--SceneryObject name: leadin-->
+	<SceneryObject parentGroupID="3" lat="35.21908142609904" lon="128.92433730384869" alt="0.00000000000000" pitch="0.001544" bank="-0.001544" heading="-50.449949" imageComplexity="VERY_SPARSE" altitudeIsAgl="TRUE" snapToGround="TRUE" snapToNormal="FALSE">
+		<LibraryObject name="{D042C8B8-26BD-4E1D-895D-8A91FD9BA9D7}" scale="1.000000"/>
+	</SceneryObject>
+	<!--SceneryObject name: leadin-->
+	<SceneryObject parentGroupID="3" groupIndex="1" lat="35.22202228641466" lon="128.91182567026246" alt="0.00000000000000" pitch="0.001544" bank="-0.001544" heading="-95.180018" imageComplexity="VERY_SPARSE" altitudeIsAgl="TRUE" snapToGround="TRUE" snapToNormal="FALSE">
 		<LibraryObject name="{D042C8B8-26BD-4E1D-895D-8A91FD9BA9D7}" scale="1.000000"/>
 	</SceneryObject>
 	<!--SceneryObject name: lightpole-->
@@ -109,14 +125,14 @@
 		<LibraryObject name="{818A3F45-AF13-40F6-97CD-53B8F606357D}" scale="1.000000"/>
 	</SceneryObject>
 	<!--SceneryObject name: wigwag-->
-	<SceneryObject groupIndex="7" lat="35.16997658201729" lon="128.94154605899257" alt="0.00000000000000" pitch="0.000000" bank="0.000000" heading="-179.999995" imageComplexity="VERY_SPARSE" altitudeIsAgl="TRUE" snapToGround="TRUE" snapToNormal="FALSE">
+	<SceneryObject groupIndex="5" lat="35.16997658201729" lon="128.94154605899257" alt="0.00000000000000" pitch="0.000000" bank="0.000000" heading="-179.999995" imageComplexity="VERY_SPARSE" altitudeIsAgl="TRUE" snapToGround="TRUE" snapToNormal="FALSE">
 		<LibraryObject name="{1921861E-F6EA-4AC2-8141-59730E37F5D2}" scale="1.000000"/>
 	</SceneryObject>
 	<!--SceneryObject name: wigwag-->
-	<SceneryObject groupIndex="6" lat="35.17149945497557" lon="128.94375374642047" alt="0.00000000000000" pitch="0.000000" bank="0.000000" heading="-179.999995" imageComplexity="VERY_SPARSE" altitudeIsAgl="TRUE" snapToGround="TRUE" snapToNormal="FALSE">
+	<SceneryObject groupIndex="4" lat="35.17149945497557" lon="128.94375374642047" alt="0.00000000000000" pitch="0.000000" bank="0.000000" heading="-179.999995" imageComplexity="VERY_SPARSE" altitudeIsAgl="TRUE" snapToGround="TRUE" snapToNormal="FALSE">
 		<LibraryObject name="{1921861E-F6EA-4AC2-8141-59730E37F5D2}" scale="1.000000"/>
 	</SceneryObject>
-	<Polygon groupIndex="11" altitude="6.71210956573486">
+	<Polygon parentGroupID="4" groupIndex="1" altitude="6.71210956573486">
 		<Attribute name="UniqueGUID" guid="{359C73E8-06BE-4FB2-ABCB-EC942F7761D0}" type="GUID" value="{46C97F57-8FCC-4A4B-8C42-857295FF08AA}"/>
 		<Attribute name="ExcludeDetectedBuildings" guid="{5C1A2387-1F07-47DF-A569-962CF6258E55}" type="UINT8" value="1"/>
 		<Attribute name="ExcludeOSMBuildings" guid="{F3C2635D-9F2F-458F-8663-90B3837BED09}" type="UINT8" value="1"/>
@@ -127,7 +143,7 @@
 		<Vertex lat="35.17027114596638" lon="128.94954570217567"/>
 		<Vertex lat="35.17140219787393" lon="128.94678655903900"/>
 	</Polygon>
-	<Polygon groupIndex="13" altitude="3.96852827072144">
+	<Polygon parentGroupID="4" altitude="3.96852827072144">
 		<Attribute name="UniqueGUID" guid="{359C73E8-06BE-4FB2-ABCB-EC942F7761D0}" type="GUID" value="{3197E64F-771F-4CFA-8405-CB167EC1F350}"/>
 		<Attribute name="ExcludeDetectedBuildings" guid="{5C1A2387-1F07-47DF-A569-962CF6258E55}" type="UINT8" value="1"/>
 		<Attribute name="ExcludeOSMBuildings" guid="{F3C2635D-9F2F-458F-8663-90B3837BED09}" type="UINT8" value="1"/>
@@ -140,7 +156,7 @@
 		<Vertex lat="35.17258208508625" lon="128.94743080938449"/>
 		<Vertex lat="35.17375540637995" lon="128.94727706393647"/>
 	</Polygon>
-	<Polygon displayName="Polygon  ( noTIN noBuilding ) (copy)" groupIndex="10" altitude="6.72755622863770">
+	<Polygon displayName="Polygon  ( noTIN noBuilding ) (copy)" parentGroupID="4" groupIndex="3" altitude="6.72755622863770">
 		<Attribute name="UniqueGUID" guid="{359C73E8-06BE-4FB2-ABCB-EC942F7761D0}" type="GUID" value="{A4F00E87-C3AF-4C58-9B46-75EA845E2FDD}"/>
 		<Attribute name="ExcludeDetectedBuildings" guid="{5C1A2387-1F07-47DF-A569-962CF6258E55}" type="UINT8" value="1"/>
 		<Attribute name="ExcludeOSMBuildings" guid="{F3C2635D-9F2F-458F-8663-90B3837BED09}" type="UINT8" value="1"/>
@@ -151,7 +167,7 @@
 		<Vertex lat="35.17839329139174" lon="128.94900550247172"/>
 		<Vertex lat="35.17958287774612" lon="128.94802808057634"/>
 	</Polygon>
-	<Polygon displayName="Polygon  ( noTIN noBuilding ) (copy 1)" groupIndex="9" altitude="6.83866930007935">
+	<Polygon displayName="Polygon  ( noTIN noBuilding ) (copy 1)" parentGroupID="4" groupIndex="2" altitude="6.83866930007935">
 		<Attribute name="UniqueGUID" guid="{359C73E8-06BE-4FB2-ABCB-EC942F7761D0}" type="GUID" value="{8BBF1AFB-681A-4221-900C-12A7EB211EDA}"/>
 		<Attribute name="ExcludeDetectedBuildings" guid="{5C1A2387-1F07-47DF-A569-962CF6258E55}" type="UINT8" value="1"/>
 		<Attribute name="ExcludeOSMBuildings" guid="{F3C2635D-9F2F-458F-8663-90B3837BED09}" type="UINT8" value="1"/>
@@ -163,8 +179,10 @@
 		<Vertex lat="35.17725850171801" lon="128.93376652662434"/>
 		<Vertex lat="35.18442946796261" lon="128.93226700034819"/>
 	</Polygon>
-	<Group displayName="Light Poles" groupIndex="5" groupID="1" groupGenerated="FALSE"/>
-	<Airport displayName="Gimhae Intl" groupIndex="8" groupID="2" groupGenerated="FALSE" name="Gimhae Intl" ident="RKPK" lat="35.18055550754070" lon="128.93805563449860" alt="3.04800009727478" magvar="0.000000" trafficScalar="1.000000" airportTestRadius="5000.00000000000000" applyFlatten="FALSE" isOnTIN="FALSE" tinColorCorrection="TRUE">
+	<Group displayName="Leadin Lights" groupID="3" groupGenerated="FALSE"/>
+	<Group displayName="Light Poles" groupIndex="3" groupID="1" groupGenerated="FALSE"/>
+	<Group displayName="buildings" groupIndex="2" groupID="4" groupGenerated="FALSE"/>
+	<Airport displayName="Gimhae Intl" groupIndex="6" groupID="2" groupGenerated="FALSE" name="Gimhae Intl" ident="RKPK" lat="35.18055550754070" lon="128.93805563449860" alt="3.04800009727478" magvar="0.000000" trafficScalar="1.000000" airportTestRadius="5000.00000000000000" applyFlatten="FALSE" isOnTIN="FALSE" tinColorCorrection="TRUE">
 		<TaxiwayPoint parentGroupID="2" groupIndex="257" index="0" type="NORMAL" orientation="FORWARD" lat="35.17828803509470" lon="128.93420353531801"/>
 		<TaxiwayPoint parentGroupID="2" groupIndex="279" index="1" type="NORMAL" orientation="FORWARD" lat="35.18452316522600" lon="128.93388390541099"/>
 		<TaxiwayPoint parentGroupID="2" groupIndex="277" index="2" type="NORMAL" orientation="FORWARD" lat="35.18417347222570" lon="128.93363267183301"/>
