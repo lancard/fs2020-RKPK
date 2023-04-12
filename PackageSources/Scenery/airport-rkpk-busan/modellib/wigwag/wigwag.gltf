@@ -11,6 +11,7 @@
     "extensionsUsed" : [
         "ASOBO_normal_map_convention",
         "ASOBO_unique_id",
+        "KHR_materials_emissive_strength",
         "KHR_materials_specular",
         "KHR_materials_ior"
     ],
@@ -82,6 +83,9 @@
                 "index" : 0
             },
             "extensions" : {
+                "KHR_materials_emissive_strength" : {
+                    "emissiveStrength" : 10
+                },
                 "KHR_materials_specular" : {
                     "specularColorFactor" : [
                         0,
