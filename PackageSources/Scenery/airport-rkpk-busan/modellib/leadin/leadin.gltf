@@ -9,28 +9,127 @@
 		"version":"2.0"
 	},
 	"extensionsUsed":[
-		"ASOBO_normal_map_convention"
+		"ASOBO_normal_map_convention",
+		"ASOBO_macro_light"
 	],
 	"scene":0,
 	"scenes":[
 		{
 			"name":"Scene",
 			"nodes":[
-				0,
-				1,
-				2,
 				3,
 				4,
 				5,
 				6,
 				7,
 				8,
-				9
+				9,
+				10,
+				11,
+				12
 			]
 		}
 	],
 	"nodes":[
 		{
+			"extensions":{
+				"ASOBO_macro_light":{
+					"color":[
+						1,
+						1,
+						1
+					],
+					"intensity":10,
+					"cone_angle":360,
+					"has_symmetry":false,
+					"flash_frequency":0,
+					"flash_duration":0,
+					"flash_phase":0,
+					"rotation_speed":0,
+					"day_night_cycle":false
+				}
+			},
+			"name":"Point",
+			"rotation":[
+				-0.7071067690849304,
+				0,
+				0,
+				-0.70710688829422
+			],
+			"translation":[
+				6.363009929656982,
+				0.3365325927734375,
+				1.0553573369979858
+			]
+		},
+		{
+			"extensions":{
+				"ASOBO_macro_light":{
+					"color":[
+						1,
+						1,
+						1
+					],
+					"intensity":10,
+					"cone_angle":360,
+					"has_symmetry":false,
+					"flash_frequency":0,
+					"flash_duration":0,
+					"flash_phase":0,
+					"rotation_speed":0,
+					"day_night_cycle":false
+				}
+			},
+			"name":"Point.001",
+			"rotation":[
+				-0.7071067690849304,
+				0,
+				0,
+				-0.70710688829422
+			],
+			"translation":[
+				7.1544036865234375,
+				0.3365325927734375,
+				1.0553573369979858
+			]
+		},
+		{
+			"extensions":{
+				"ASOBO_macro_light":{
+					"color":[
+						1,
+						1,
+						1
+					],
+					"intensity":10,
+					"cone_angle":360,
+					"has_symmetry":false,
+					"flash_frequency":0,
+					"flash_duration":0,
+					"flash_phase":0,
+					"rotation_speed":0,
+					"day_night_cycle":false
+				}
+			},
+			"name":"Point.002",
+			"rotation":[
+				-0.7071067690849304,
+				0,
+				0,
+				-0.70710688829422
+			],
+			"translation":[
+				5.568626403808594,
+				0.3365325927734375,
+				1.0553573369979858
+			]
+		},
+		{
+			"children":[
+				0,
+				1,
+				2
+			],
 			"name":"Empty",
 			"translation":[
 				-6.363009929656982,
@@ -139,7 +238,7 @@
 				{
 					"sampler":0,
 					"target":{
-						"node":0,
+						"node":3,
 						"path":"translation"
 					}
 				}
@@ -150,6 +249,25 @@
 					"input":30,
 					"interpolation":"STEP",
 					"output":31
+				}
+			]
+		},
+		{
+			"channels":[
+				{
+					"sampler":0,
+					"target":{
+						"node":0,
+						"path":"translation"
+					}
+				}
+			],
+			"name":"PointAction",
+			"samplers":[
+				{
+					"input":32,
+					"interpolation":"STEP",
+					"output":33
 				}
 			]
 		}
@@ -624,6 +742,24 @@
 			"componentType":5126,
 			"count":13,
 			"type":"VEC3"
+		},
+		{
+			"bufferView":32,
+			"componentType":5126,
+			"count":1,
+			"max":[
+				0
+			],
+			"min":[
+				0
+			],
+			"type":"SCALAR"
+		},
+		{
+			"bufferView":33,
+			"componentType":5126,
+			"count":1,
+			"type":"VEC3"
 		}
 	],
 	"bufferViews":[
@@ -816,6 +952,16 @@
 			"buffer":0,
 			"byteLength":156,
 			"byteOffset":26476
+		},
+		{
+			"buffer":0,
+			"byteLength":4,
+			"byteOffset":26632
+		},
+		{
+			"buffer":0,
+			"byteLength":12,
+			"byteOffset":26636
 		}
 	],
 	"samplers":[
@@ -826,7 +972,7 @@
 	],
 	"buffers":[
 		{
-			"byteLength":26632,
+			"byteLength":26648,
 			"uri":"leadin.bin"
 		}
 	]
