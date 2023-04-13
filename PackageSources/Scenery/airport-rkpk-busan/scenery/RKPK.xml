@@ -1131,7 +1131,7 @@
 			<Vasi end="PRIMARY" side="LEFT" type="PAPI4" biasX="35.689999" biasZ="1070.790039" spacing="91.440002" pitch="3.000000"/>
 			<Vasi end="PRIMARY" side="RIGHT" type="PAPI4" biasX="35.689999" biasZ="1070.790039" spacing="91.440002" pitch="3.000000"/>
 			<Vasi end="SECONDARY" side="LEFT" type="PAPI4" biasX="35.689999" biasZ="945.789978" spacing="91.440002" pitch="3.000000"/>
-			<Ils lat="35.19686635583640" lon="128.93701270222701" alt="3.96200000000000" end="SECONDARY" range="50072.37000000000262" ident="IKHE" magvar="7.000000" heading="354.00000000000000" frequency="109.50000000000000" width="5.000000" name="ILS/DME 36R" backCourse="TRUE">
+			<Ils lat="35.19686635583640" lon="128.93701270222701" alt="3.96200000000000" end="SECONDARY" range="50072.37000000000262" ident="IKHE" magvar="7.000000" heading="001.00000000000000" frequency="109.50000000000000" width="5.000000" name="ILS/DME 36R" backCourse="TRUE">
 				<Dme lat="35.19680768251420" lon="128.93702208995799" alt="3.96200000000000" range="50072.37000000000262"/>
 				<GlideSlope lat="35.17276033759120" lon="128.94145220518101" alt="3.96200000000000" pitch="3.000000" range="50072.37000000000262"/>
 			</Ils>
@@ -1146,7 +1146,7 @@
 			<Vasi end="PRIMARY" side="LEFT" type="PAPI4" biasX="41.000000" biasZ="946.130005" spacing="10.000000" pitch="3.000000"/>
 			<Vasi end="PRIMARY" side="RIGHT" type="PAPI4" biasX="41.000000" biasZ="946.130005" spacing="10.000000" pitch="3.000000"/>
 			<Vasi end="SECONDARY" side="LEFT" type="PAPI4" biasX="41.000000" biasZ="921.099976" spacing="10.000000" pitch="3.000000"/>
-			<Ils lat="35.19653107970950" lon="128.93475562334100" alt="3.96200000000000" end="SECONDARY" range="50072.37000000000262" ident="IKMA" magvar="7.000000" heading="354.00000000000000" frequency="108.50000000000000" width="5.000000" name="ILS/DME 36L" backCourse="TRUE">
+			<Ils lat="35.19653107970950" lon="128.93475562334100" alt="3.96200000000000" end="SECONDARY" range="50072.37000000000262" ident="IKMA" magvar="7.000000" heading="001.00000000000000" frequency="108.50000000000000" width="5.000000" name="ILS/DME 36L" backCourse="TRUE">
 				<Dme lat="35.19658572971820" lon="128.93476724624600" alt="3.96200000000000" range="50072.37000000000262"/>
 				<GlideSlope lat="35.16881715506320" lon="128.93835112452501" alt="3.96200000000000" pitch="3.000000" range="50072.37000000000262"/>
 			</Ils>
