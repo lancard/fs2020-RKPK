@@ -2704,7 +2704,10 @@
 		<Waypoint waypointIdent="PK522" lat="35.125083333333336" lon="128.7468333333333" waypointType="NAMED" waypointRegion="RK" magvar="7"/>
 		<Departure name="OPONO3">
 			<RunwayTransitions>
-				<RunwayTransitionLegs number="36" designator="NONE">
+				<RunwayTransitionLegs number="36" designator="L">
+					<Leg type="CA" magneticCourse="1" altitudeDescriptor="A" altitude1="600F"/>
+				</RunwayTransitionLegs>
+				<RunwayTransitionLegs number="36" designator="R">
 					<Leg type="CA" magneticCourse="1" altitudeDescriptor="A" altitude1="600F"/>
 				</RunwayTransitionLegs>
 			</RunwayTransitions>
