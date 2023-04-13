@@ -227,7 +227,7 @@
 		<Vertex lat="35.17725850171801" lon="128.93376652662434"/>
 		<Vertex lat="35.18442946796261" lon="128.93226700034819"/>
 	</Polygon>
-	<Polygon displayName="Polygon  ( noTIN noBuilding ) (copy 1)" parentGroupID="3" groupIndex="6" altitude="6.69999999832362">
+	<Polygon displayName="Polygon  ( noTIN noBuilding ) (copy 1)" parentGroupID="3" groupIndex="6" altitude="6.69999980926514">
 		<Attribute name="UniqueGUID" guid="{359C73E8-06BE-4FB2-ABCB-EC942F7761D0}" type="GUID" value="{B2ACDA95-ABE7-48E7-8CEE-B38DB2DBB16C}"/>
 		<Attribute name="ExcludeDetectedBuildings" guid="{5C1A2387-1F07-47DF-A569-962CF6258E55}" type="UINT8" value="1"/>
 		<Attribute name="ExcludeOSMBuildings" guid="{F3C2635D-9F2F-458F-8663-90B3837BED09}" type="UINT8" value="1"/>
@@ -242,7 +242,7 @@
 	<Group displayName="Light Poles" groupIndex="4" groupID="2" groupGenerated="FALSE"/>
 	<Group displayName="buildings" groupIndex="3" groupID="3" groupGenerated="FALSE"/>
 	<Group displayName="wigwag" groupIndex="1" groupID="4" groupGenerated="FALSE"/>
-	<Airport displayName="Gimhae Intl" groupIndex="5" groupID="5" groupGenerated="FALSE" name="Gimhae Intl" ident="RKPK" lat="35.18055550754070" lon="128.93805563449860" alt="3.04800009727478" magvar="0.000000" trafficScalar="1.000000" airportTestRadius="5000.00000000000000" applyFlatten="FALSE" isOnTIN="FALSE" tinColorCorrection="TRUE">
+	<Airport displayName="Gimhae Intl" groupIndex="5" groupID="5" groupGenerated="FALSE" name="Gimhae Intl" ident="RKPK" lat="35.18055550754070" lon="128.93805563449860" alt="3.04800009727478" magvar="0.000000" trafficScalar="1.000000" airportTestRadius="5000.00000000000000" applyFlatten="FALSE" isOnTIN="FALSE" tinColorCorrection="TRUE" starAirport="TRUE">
 		<TaxiwayPoint parentGroupID="5" groupIndex="332" index="0" type="NORMAL" orientation="FORWARD" lat="35.17828803509470" lon="128.93420353531801"/>
 		<TaxiwayPoint parentGroupID="5" groupIndex="354" index="1" type="NORMAL" orientation="FORWARD" lat="35.18452316522600" lon="128.93388390541099"/>
 		<TaxiwayPoint parentGroupID="5" groupIndex="352" index="2" type="NORMAL" orientation="FORWARD" lat="35.18417347222570" lon="128.93363267183301"/>
@@ -2617,7 +2617,6 @@
 			<Vertex lat="35.168074183166" lon="128.935714066029"/>
 			<Vertex lat="35.1767145842314" lon="128.934559822083"/>
 		</BoundaryFence>
-
 		<Approach type="VORDME" runway="36" designator="LEFT" suffix="0" gpsOverlay="FALSE" fixType="TERMINAL_WAYPOINT" fixRegion="RK" fixIdent="FD36B" altitude="670.56M" heading="2.996376" missedAltitude="1524.0M">
 			<ApproachLegs>
 				<Leg type="IF" fixType="TERMINAL_WAYPOINT" fixRegion="RK" fixIdent="CD36B" recommendedType="VOR" recommendedRegion="RK" recommendedIdent="KMH" theta="190" rho="22229.69M" altitudeDescriptor="A" altitude1="792.48M"/>
@@ -2700,11 +2699,9 @@
 				</TransitionLegs>
 			</Transition>
 		</Approach>
-
-	    <Waypoint waypointIdent="OPONO" lat="35.30672222222222" lon="128.7295" waypointType="NAMED" waypointRegion="RK" magvar="7" />
-	    <Waypoint waypointIdent="PK521" lat="35.22833333333333" lon="128.64227777777776" waypointType="NAMED" waypointRegion="RK" magvar="7" />
-	    <Waypoint waypointIdent="PK522" lat="35.125083333333336" lon="128.7468333333333" waypointType="NAMED" waypointRegion="RK" magvar="7" />
-
+		<Waypoint waypointIdent="OPONO" lat="35.30672222222222" lon="128.7295" waypointType="NAMED" waypointRegion="RK" magvar="7"/>
+		<Waypoint waypointIdent="PK521" lat="35.22833333333333" lon="128.64227777777776" waypointType="NAMED" waypointRegion="RK" magvar="7"/>
+		<Waypoint waypointIdent="PK522" lat="35.125083333333336" lon="128.7468333333333" waypointType="NAMED" waypointRegion="RK" magvar="7"/>
 		<Departure name="OPONO3">
 			<RunwayTransitions>
 				<RunwayTransitionLegs number="36" designator="NONE">
@@ -2712,7 +2709,7 @@
 				</RunwayTransitionLegs>
 			</RunwayTransitions>
 			<CommonRouteLegs>
-				<Leg type="DF" fixType="TERMINAL_WAYPOINT" fixRegion="RK" fixIdent="OPONO" flyOver="FALSE" speedLimit="230" altitudeDescriptor="A" altitude1="5000F" />
+				<Leg type="DF" fixType="TERMINAL_WAYPOINT" fixRegion="RK" fixIdent="OPONO" flyOver="FALSE" speedLimit="230" altitudeDescriptor="A" altitude1="5000F"/>
 			</CommonRouteLegs>
 			<EnrouteTransitions>
 				<EnrouteTransitionLegs>
@@ -2722,18 +2719,18 @@
 					<Leg type="DF" fixType="WAYPOINT" fixRegion="RK" fixIdent="MASTA" flyOver="FALSE"/>
 				</EnrouteTransitionLegs>
 				<EnrouteTransitionLegs>
-					<Leg type="DF" fixType="TERMINAL_WAYPOINT" fixRegion="RK" fixIdent="PK521" flyOver="FALSE" altitudeDescriptor="A" altitude1="5000F" />
-					<Leg type="DF" fixType="TERMINAL_WAYPOINT" fixRegion="RK" fixIdent="PK522" flyOver="FALSE" altitudeDescriptor="A" altitude1="5000F" />
+					<Leg type="DF" fixType="TERMINAL_WAYPOINT" fixRegion="RK" fixIdent="PK521" flyOver="FALSE" altitudeDescriptor="A" altitude1="5000F"/>
+					<Leg type="DF" fixType="TERMINAL_WAYPOINT" fixRegion="RK" fixIdent="PK522" flyOver="FALSE" altitudeDescriptor="A" altitude1="5000F"/>
 					<Leg type="DF" fixType="VOR" fixRegion="RK" fixIdent="PSN" flyOver="FALSE"/>
 				</EnrouteTransitionLegs>
 				<EnrouteTransitionLegs>
-					<Leg type="DF" fixType="TERMINAL_WAYPOINT" fixRegion="RK" fixIdent="PK521" flyOver="FALSE" altitudeDescriptor="A" altitude1="5000F" />
-					<Leg type="DF" fixType="TERMINAL_WAYPOINT" fixRegion="RK" fixIdent="PK522" flyOver="FALSE" altitudeDescriptor="A" altitude1="5000F" />
+					<Leg type="DF" fixType="TERMINAL_WAYPOINT" fixRegion="RK" fixIdent="PK521" flyOver="FALSE" altitudeDescriptor="A" altitude1="5000F"/>
+					<Leg type="DF" fixType="TERMINAL_WAYPOINT" fixRegion="RK" fixIdent="PK522" flyOver="FALSE" altitudeDescriptor="A" altitude1="5000F"/>
 					<Leg type="DF" fixType="WAYPOINT" fixRegion="RK" fixIdent="BESNA" flyOver="FALSE"/>
 				</EnrouteTransitionLegs>
 				<EnrouteTransitionLegs>
-					<Leg type="DF" fixType="TERMINAL_WAYPOINT" fixRegion="RK" fixIdent="PK521" flyOver="FALSE" altitudeDescriptor="A" altitude1="5000F" />
-					<Leg type="DF" fixType="WAYPOINT" fixRegion="RK" fixIdent="SARAM" flyOver="FALSE" altitudeDescriptor="A" altitude1="5000F" />
+					<Leg type="DF" fixType="TERMINAL_WAYPOINT" fixRegion="RK" fixIdent="PK521" flyOver="FALSE" altitudeDescriptor="A" altitude1="5000F"/>
+					<Leg type="DF" fixType="WAYPOINT" fixRegion="RK" fixIdent="SARAM" flyOver="FALSE" altitudeDescriptor="A" altitude1="5000F"/>
 					<Leg type="DF" fixType="WAYPOINT" fixRegion="RK" fixIdent="ENGOT" flyOver="FALSE"/>
 				</EnrouteTransitionLegs>
 			</EnrouteTransitions>
