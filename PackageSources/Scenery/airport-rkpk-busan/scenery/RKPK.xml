@@ -2705,10 +2705,10 @@
 		<Departure name="OPONO3">
 			<RunwayTransitions>
 				<RunwayTransitionLegs number="36" designator="L">
-					<Leg type="CA" magneticCourse="1" altitudeDescriptor="A" altitude1="600F"/>
+					<Leg type="VA" magneticCourse="1" altitudeDescriptor="A" altitude1="600F" speedLimit="230"/>
 				</RunwayTransitionLegs>
 				<RunwayTransitionLegs number="36" designator="R">
-					<Leg type="CA" magneticCourse="1" altitudeDescriptor="A" altitude1="600F"/>
+					<Leg type="VA" magneticCourse="1" altitudeDescriptor="A" altitude1="600F" speedLimit="230"/>
 				</RunwayTransitionLegs>
 			</RunwayTransitions>
 			<CommonRouteLegs>
@@ -2716,25 +2716,25 @@
 			</CommonRouteLegs>
 			<EnrouteTransitions>
 				<EnrouteTransitionLegs>
-					<Leg type="DF" fixType="WAYPOINT" fixRegion="RK" fixIdent="KALOD" flyOver="FALSE"/>
+					<Leg type="TF" fixType="WAYPOINT" fixRegion="RK" fixIdent="KALOD" flyOver="FALSE" magneticCourse="017.96"/>
 				</EnrouteTransitionLegs>
 				<EnrouteTransitionLegs>
-					<Leg type="DF" fixType="WAYPOINT" fixRegion="RK" fixIdent="MASTA" flyOver="FALSE"/>
+					<Leg type="TF" fixType="WAYPOINT" fixRegion="RK" fixIdent="MASTA" flyOver="FALSE" magneticCourse="328.96"/>
 				</EnrouteTransitionLegs>
 				<EnrouteTransitionLegs>
-					<Leg type="DF" fixType="TERMINAL_WAYPOINT" fixRegion="RK" fixIdent="PK521" flyOver="FALSE" altitudeDescriptor="A" altitude1="5000F"/>
-					<Leg type="DF" fixType="TERMINAL_WAYPOINT" fixRegion="RK" fixIdent="PK522" flyOver="FALSE" altitudeDescriptor="A" altitude1="5000F"/>
-					<Leg type="DF" fixType="VOR" fixRegion="RK" fixIdent="PSN" flyOver="FALSE"/>
+					<Leg type="TF" fixType="TERMINAL_WAYPOINT" fixRegion="RK" fixIdent="PK521" flyOver="FALSE" magneticCourse="229.87" altitudeDescriptor="A" altitude1="5000F"/>
+					<Leg type="TF" fixType="TERMINAL_WAYPOINT" fixRegion="RK" fixIdent="PK522" flyOver="FALSE" magneticCourse="147.69" altitudeDescriptor="A" altitude1="5000F"/>
+					<Leg type="TF" fixType="VOR" fixRegion="RK" fixIdent="PSN" flyOver="FALSE" magneticCourse="098.07"/>
 				</EnrouteTransitionLegs>
 				<EnrouteTransitionLegs>
-					<Leg type="DF" fixType="TERMINAL_WAYPOINT" fixRegion="RK" fixIdent="PK521" flyOver="FALSE" altitudeDescriptor="A" altitude1="5000F"/>
-					<Leg type="DF" fixType="TERMINAL_WAYPOINT" fixRegion="RK" fixIdent="PK522" flyOver="FALSE" altitudeDescriptor="A" altitude1="5000F"/>
-					<Leg type="DF" fixType="WAYPOINT" fixRegion="RK" fixIdent="BESNA" flyOver="FALSE"/>
+					<Leg type="TF" fixType="TERMINAL_WAYPOINT" fixRegion="RK" fixIdent="PK521" flyOver="FALSE" magneticCourse="229.87" altitudeDescriptor="A" altitude1="5000F"/>
+					<Leg type="TF" fixType="TERMINAL_WAYPOINT" fixRegion="RK" fixIdent="PK522" flyOver="FALSE" magneticCourse="147.69" altitudeDescriptor="A" altitude1="5000F"/>
+					<Leg type="TF" fixType="WAYPOINT" fixRegion="RK" fixIdent="BESNA" flyOver="FALSE" magneticCourse="155.20"/>
 				</EnrouteTransitionLegs>
 				<EnrouteTransitionLegs>
-					<Leg type="DF" fixType="TERMINAL_WAYPOINT" fixRegion="RK" fixIdent="PK521" flyOver="FALSE" altitudeDescriptor="A" altitude1="5000F"/>
-					<Leg type="DF" fixType="WAYPOINT" fixRegion="RK" fixIdent="SARAM" flyOver="FALSE" altitudeDescriptor="A" altitude1="5000F"/>
-					<Leg type="DF" fixType="WAYPOINT" fixRegion="RK" fixIdent="ENGOT" flyOver="FALSE"/>
+					<Leg type="TF" fixType="TERMINAL_WAYPOINT" fixRegion="RK" fixIdent="PK521" flyOver="FALSE" magneticCourse="229.87" altitudeDescriptor="A" altitude1="5000F"/>
+					<Leg type="TF" fixType="WAYPOINT" fixRegion="RK" fixIdent="SARAM" flyOver="FALSE" magneticCourse="229.82" altitudeDescriptor="A" altitude1="5000F"/>
+					<Leg type="TF" fixType="WAYPOINT" fixRegion="RK" fixIdent="ENGOT" flyOver="FALSE" magneticCourse="192.21"/>
 				</EnrouteTransitionLegs>
 			</EnrouteTransitions>
 		</Departure>
