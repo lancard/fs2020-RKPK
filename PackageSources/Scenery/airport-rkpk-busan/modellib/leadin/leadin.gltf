@@ -64,7 +64,7 @@
                         1,
                         1
                     ],
-                    "intensity" : 100,
+                    "intensity" : 10000,
                     "cone_angle" : 360,
                     "has_symmetry" : true,
                     "flash_frequency" : 0,
@@ -98,7 +98,7 @@
                         1,
                         1
                     ],
-                    "intensity" : 100,
+                    "intensity" : 10000,
                     "cone_angle" : 360,
                     "has_symmetry" : true,
                     "flash_frequency" : 0,
@@ -132,7 +132,7 @@
                         1,
                         1
                     ],
-                    "intensity" : 100,
+                    "intensity" : 10000,
                     "cone_angle" : 360,
                     "has_symmetry" : true,
                     "flash_frequency" : 0,
