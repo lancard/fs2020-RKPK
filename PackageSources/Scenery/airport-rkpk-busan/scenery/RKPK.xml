@@ -2707,7 +2707,7 @@
 
 		<Departure name="OPONO3">
 			<RunwayTransitions>
-				<RunwayTransitionLegs number="1" designator="NONE">
+				<RunwayTransitionLegs number="36" designator="NONE">
 					<Leg type="CA" magneticCourse="1" altitudeDescriptor="A" altitude1="600F"/>
 				</RunwayTransitionLegs>
 			</RunwayTransitions>
