@@ -1,0 +1,10 @@
+{
+  "package-name": "thekoreans-airport-rkpk-busan",
+  "items": [
+    {
+      "type": "Airport",
+      "content": "RKPK",
+      "revision": 1
+    }
+  ]
+}
