@@ -1,9 +1,9 @@
 <Library Version="1.1.0">
-	<Material Version="1.4.0" Name="RKPK-gate" Guid="{7538EC7F-31AC-4F6D-83D5-0B1916A763D6}" SurfaceType="CEMENT" Type="CODE_DIFFUSE" Metal="0.000000" Rough="0.000000" Opacity="1.000000" BlendMode="Transparent">
+	<Material Version="1.4.0" Name="1" Guid="{762FC637-6CF6-43BC-8470-9A8F633ABFC3}" SurfaceType="ASPHALT" Type="CODE_DIFFUSE" Metal="0.000000" Rough="0.000000" Opacity="1.000000" BlendMode="Transparent">
 		<TagList/>
 		<FlagList/>
 		<TextureList>
-			<Texture FileName="TEXTURES\GATE.PNG.DDS" Binding="MTL_BITMAP_DECAL0"/>
+			<Texture FileName="TEXTURES\1.PNG.DDS" Binding="MTL_BITMAP_DECAL0"/>
 		</TextureList>
 		<Attributes>
 			<Diffuse Red="1.000000" Green="1.000000" Blue="1.000000"/>
