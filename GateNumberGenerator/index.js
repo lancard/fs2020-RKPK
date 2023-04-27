@@ -2,7 +2,13 @@ const fs = require('fs');
 const Guid = require('guid');
 const { convert } = require('convert-svg-to-png');
 
-function getSvg(text) {
+function getBoxTextSvg(text) {
+    return `<svg width="256px" height="128px" style="background: #ffcc31; padding: 10px;">
+    <text x="0" y="0" style="dominant-baseline: hanging; font-size:128px; font-weight: bold;" textLength="95%" lengthAdjust="spacingAndGlyphs">${text}</text>
+    </svg>`;
+}
+
+function getSpotNumberSvg(text) {
     var size = 70;
     if (text.length == 3)
         size = 55;
@@ -14,7 +20,7 @@ function getSvg(text) {
 }
 
 function getMaterial(text) {
-return `<Material Version="1.4.0" Name="${text}" Guid="{${Guid.create().toString().toUpperCase()}}" SurfaceType="ASPHALT" Type="CODE_DIFFUSE" Metal="0.000000" Rough="0.000000" Opacity="1.000000" BlendMode="Transparent">
+    return `<Material Version="1.4.0" Name="${text}" Guid="{${Guid.create().toString().toUpperCase()}}" SurfaceType="ASPHALT" Type="CODE_DIFFUSE" Metal="0.000000" Rough="0.000000" Opacity="1.000000" BlendMode="Transparent">
 	<TagList/>
 	<FlagList/>
 	<TextureList>
@@ -44,11 +50,11 @@ return `<Material Version="1.4.0" Name="${text}" Guid="{${Guid.create().toString
 </Material>`;
 }
 
-function writePng(text) {
-    convert(getSvg(text)).then((png) => {
-        fs.writeFileSync(`output/${text}.png`, png);
-        fs.writeFileSync(`output/${text}.png.FLAGS`, "_DEFAULT=+PRECOMPUTEDINVAVG+QUALITYHIGH");
-        fs.writeFileSync(`output/${text}.material`, getMaterial(text));        
+function writePngAndMaterial(text, filename, svgGeneratorFunction) {
+    convert(svgGeneratorFunction(text)).then((png) => {
+        fs.writeFileSync(`output/${filename}.png`, png);
+        fs.writeFileSync(`output/${filename}.png.FLAGS`, "_DEFAULT=+PRECOMPUTEDINVAVG+QUALITYHIGH");
+        fs.writeFileSync(`output/${filename}.material`, getMaterial(text));
     });
 }
 
@@ -110,6 +116,23 @@ var gate = [
     "933"
 ];
 
+/*
 gate.forEach(e => {
-    writePng(e);
-})
+    writePng(e, e, getSpotNumberSvg);
+});
+*/
+
+writePngAndMaterial("↑G10", "UPG10", getBoxTextSvg);
+writePngAndMaterial("↖G11", "ULG11", getBoxTextSvg);
+writePngAndMaterial("↖G10", "ULG10", getBoxTextSvg);
+writePngAndMaterial("↖G8", "ULG8", getBoxTextSvg);
+writePngAndMaterial("↖G7", "ULG7", getBoxTextSvg);
+writePngAndMaterial("G7↗", "G7UR", getBoxTextSvg);
+writePngAndMaterial("G8↗", "G8UR", getBoxTextSvg);
+writePngAndMaterial("G9↗", "G9UR", getBoxTextSvg);
+writePngAndMaterial("G10↗", "G10UR", getBoxTextSvg);
+writePngAndMaterial("G11↑", "G11UP", getBoxTextSvg);
+writePngAndMaterial("↑G7", "UPG7", getBoxTextSvg);
+writePngAndMaterial("R↗", "RUR", getBoxTextSvg);
+writePngAndMaterial("R↑", "RUP", getBoxTextSvg);
+writePngAndMaterial("P↗", "PUR", getBoxTextSvg);
