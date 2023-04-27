@@ -1,8 +1,8 @@
-<Material Version="1.4.0" Name="G10↗" Guid="{7082B2C0-64C9-BB30-6FCC-5DB2A2FB3ABB}" SurfaceType="ASPHALT" Type="CODE_DIFFUSE" Metal="0.000000" Rough="0.000000" Opacity="1.000000" BlendMode="Transparent">
+<Material Version="1.4.0" Name="G10UR" Guid="{F0E4ABC4-F2E4-9587-7968-F10F80C692DA}" SurfaceType="ASPHALT" Type="CODE_DIFFUSE" Metal="0.000000" Rough="0.000000" Opacity="1.000000" BlendMode="Transparent">
 	<TagList/>
 	<FlagList/>
 	<TextureList>
-		<Texture FileName="textures\G10↗.png" Binding="MTL_BITMAP_DECAL0"/>
+		<Texture FileName="textures\G10UR.png" Binding="MTL_BITMAP_DECAL0"/>
 	</TextureList>
 	<Attributes>
 		<Diffuse Red="1.000000" Green="1.000000" Blue="1.000000"/>

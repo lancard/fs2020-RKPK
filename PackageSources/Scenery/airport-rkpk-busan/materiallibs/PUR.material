@@ -1,8 +1,8 @@
-<Material Version="1.4.0" Name="P↗" Guid="{F7210FF0-0994-E803-594F-11E45B7BA524}" SurfaceType="ASPHALT" Type="CODE_DIFFUSE" Metal="0.000000" Rough="0.000000" Opacity="1.000000" BlendMode="Transparent">
+<Material Version="1.4.0" Name="PUR" Guid="{B31EDE92-39F5-D496-81DF-15E0FDCC37CC}" SurfaceType="ASPHALT" Type="CODE_DIFFUSE" Metal="0.000000" Rough="0.000000" Opacity="1.000000" BlendMode="Transparent">
 	<TagList/>
 	<FlagList/>
 	<TextureList>
-		<Texture FileName="textures\P↗.png" Binding="MTL_BITMAP_DECAL0"/>
+		<Texture FileName="textures\PUR.png" Binding="MTL_BITMAP_DECAL0"/>
 	</TextureList>
 	<Attributes>
 		<Diffuse Red="1.000000" Green="1.000000" Blue="1.000000"/>

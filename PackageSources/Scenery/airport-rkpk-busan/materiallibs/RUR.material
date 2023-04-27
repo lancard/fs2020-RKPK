@@ -1,8 +1,8 @@
-<Material Version="1.4.0" Name="R↗" Guid="{238E4CC4-A3DC-B0C9-A3DF-26583DB7E103}" SurfaceType="ASPHALT" Type="CODE_DIFFUSE" Metal="0.000000" Rough="0.000000" Opacity="1.000000" BlendMode="Transparent">
+<Material Version="1.4.0" Name="RUR" Guid="{5E497EC7-D678-D4A2-F749-68204B7088CB}" SurfaceType="ASPHALT" Type="CODE_DIFFUSE" Metal="0.000000" Rough="0.000000" Opacity="1.000000" BlendMode="Transparent">
 	<TagList/>
 	<FlagList/>
 	<TextureList>
-		<Texture FileName="textures\R↗.png" Binding="MTL_BITMAP_DECAL0"/>
+		<Texture FileName="textures\RUR.png" Binding="MTL_BITMAP_DECAL0"/>
 	</TextureList>
 	<Attributes>
 		<Diffuse Red="1.000000" Green="1.000000" Blue="1.000000"/>

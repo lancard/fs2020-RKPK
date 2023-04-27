@@ -54,7 +54,7 @@ function writePngAndMaterial(text, filename, svgGeneratorFunction) {
     convert(svgGeneratorFunction(text)).then((png) => {
         fs.writeFileSync(`output/${filename}.png`, png);
         fs.writeFileSync(`output/${filename}.png.FLAGS`, "_DEFAULT=+PRECOMPUTEDINVAVG+QUALITYHIGH");
-        fs.writeFileSync(`output/${filename}.material`, getMaterial(text));
+        fs.writeFileSync(`output/${filename}.material`, getMaterial(filename));
     });
 }
 

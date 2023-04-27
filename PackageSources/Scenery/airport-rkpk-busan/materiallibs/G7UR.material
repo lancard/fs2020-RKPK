@@ -1,8 +1,8 @@
-<Material Version="1.4.0" Name="G7↗" Guid="{40B9D11B-AA24-8802-082C-B0DE43FC4396}" SurfaceType="ASPHALT" Type="CODE_DIFFUSE" Metal="0.000000" Rough="0.000000" Opacity="1.000000" BlendMode="Transparent">
+<Material Version="1.4.0" Name="G7UR" Guid="{0C0353DB-CA8A-270B-D9A0-287CF524D97B}" SurfaceType="ASPHALT" Type="CODE_DIFFUSE" Metal="0.000000" Rough="0.000000" Opacity="1.000000" BlendMode="Transparent">
 	<TagList/>
 	<FlagList/>
 	<TextureList>
-		<Texture FileName="textures\G7↗.png" Binding="MTL_BITMAP_DECAL0"/>
+		<Texture FileName="textures\G7UR.png" Binding="MTL_BITMAP_DECAL0"/>
 	</TextureList>
 	<Attributes>
 		<Diffuse Red="1.000000" Green="1.000000" Blue="1.000000"/>

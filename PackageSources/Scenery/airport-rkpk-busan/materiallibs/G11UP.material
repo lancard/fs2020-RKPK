@@ -1,8 +1,8 @@
-<Material Version="1.4.0" Name="G11↑" Guid="{0D6FB208-DB8D-FABF-EFBF-525A713C7329}" SurfaceType="ASPHALT" Type="CODE_DIFFUSE" Metal="0.000000" Rough="0.000000" Opacity="1.000000" BlendMode="Transparent">
+<Material Version="1.4.0" Name="G11UP" Guid="{A1DE4260-E32B-D5DA-5E3B-B1AC2E2FC05E}" SurfaceType="ASPHALT" Type="CODE_DIFFUSE" Metal="0.000000" Rough="0.000000" Opacity="1.000000" BlendMode="Transparent">
 	<TagList/>
 	<FlagList/>
 	<TextureList>
-		<Texture FileName="textures\G11↑.png" Binding="MTL_BITMAP_DECAL0"/>
+		<Texture FileName="textures\G11UP.png" Binding="MTL_BITMAP_DECAL0"/>
 	</TextureList>
 	<Attributes>
 		<Diffuse Red="1.000000" Green="1.000000" Blue="1.000000"/>
