@@ -4457,12 +4457,17 @@
 		<Waypoint waypointIdent="GAYHA" lat="35.22288888888889" lon="128.63177777777778" waypointType="NAMED" waypointRegion="RK" magvar="7"/>
 		<Waypoint waypointIdent="PK711" lat="34.96441666666667" lon="128.84230555555555" waypointType="NAMED" waypointRegion="RK" magvar="7"/>
 		<Waypoint waypointIdent="OLMOG" lat="35.05891666666666" lon="128.95252777777776" waypointType="NAMED" waypointRegion="RK" magvar="7"/>
-		<Waypoint waypointIdent="ID066" lat="35.05891666666666" lon="128.95252777777776" waypointType="NAMED" waypointRegion="RK" magvar="7"/>
+		<Waypoint waypointIdent="IKMA6" lat="35.05891666666666" lon="128.95252777777776" waypointType="NAMED" waypointRegion="RK" magvar="7"/>
+		<Waypoint waypointIdent="KMH82" lat="35.05891666666666" lon="128.95252777777776" waypointType="NAMED" waypointRegion="RK" magvar="7"/>
 		<Waypoint waypointIdent="KMH84" lat="35.05891666666666" lon="128.95252777777776" waypointType="NAMED" waypointRegion="RK" magvar="7"/>
 		<Waypoint waypointIdent="AKEVI" lat="34.974722222222226" lon="128.9633333333333" waypointType="NAMED" waypointRegion="RK" magvar="7"/>
-		<Waypoint waypointIdent="ID131" lat="34.974722222222226" lon="128.9633333333333" waypointType="NAMED" waypointRegion="RK" magvar="7"/>
+		<Waypoint waypointIdent="IKM13" lat="34.974722222222226" lon="128.9633333333333" waypointType="NAMED" waypointRegion="RK" magvar="7"/>
 		<Waypoint waypointIdent="KMH15" lat="34.974722222222226" lon="128.9633333333333" waypointType="NAMED" waypointRegion="RK" magvar="7"/>
 		<Waypoint waypointIdent="GEOJE" lat="35.015416944444446" lon="128.72833277777778" waypointType="NAMED" waypointRegion="RK" magvar="7"/>
+		<Waypoint waypointIdent="BOSPI" lat="34.97533333333334" lon="128.9655833333333" waypointType="NAMED" waypointRegion="RK" magvar="7"/>
+		<Waypoint waypointIdent="IKH13" lat="34.97533333333334" lon="128.9655833333333" waypointType="NAMED" waypointRegion="RK" magvar="7"/>
+		<Waypoint waypointIdent="NEIAN" lat="35.06294444444444" lon="128.95430555555555" waypointType="NAMED" waypointRegion="RK" magvar="7"/>
+		<Waypoint waypointIdent="IKHE6" lat="35.06294444444444" lon="128.95430555555555" waypointType="NAMED" waypointRegion="RK" magvar="7"/>
 
 
 		<Waypoint waypointIdent="ZZ001" lat="35.384895" lon="128.84341305555554" waypointType="UNNAMED" waypointRegion="RK" magvar="7"/>
@@ -4783,10 +4788,10 @@
 			</Transition>
 		</Approach>
 
-		<Approach type="ILS" runway="36" designator="LEFT" suffix="Y" gpsOverlay="FALSE" fixType="TERMINAL_WAYPOINT" fixRegion="RK" fixIdent="ID066" altitude="2100F" heading="353.966553" missedAltitude="5000F">
+		<Approach type="ILS" runway="36" designator="LEFT" suffix="Y" gpsOverlay="FALSE" fixType="TERMINAL_WAYPOINT" fixRegion="RK" fixIdent="IKMA6" altitude="2100F" heading="353.966553" missedAltitude="5000F">
 			<ApproachLegs>
-				<Leg type="IF" fixType="TERMINAL_WAYPOINT" fixRegion="RK" fixIdent="ID131" recommendedType="LOCALIZER" recommendedIdent="IKMA" theta="181" rho="11.5N" altitudeDescriptor="+" altitude1="3500F"/>
-				<Leg type="CF" fixType="TERMINAL_WAYPOINT" fixRegion="RK" fixIdent="ID066" flyOver="FALSE" recommendedType="LOCALIZER" recommendedIdent="IKMA" theta="181" rho="6.4N" magneticCourse="1" distance="5.1N" altitudeDescriptor="+" altitude1="2100F"/>
+				<Leg type="IF" fixType="TERMINAL_WAYPOINT" fixRegion="RK" fixIdent="IKM13" recommendedType="LOCALIZER" recommendedIdent="IKMA" theta="181" rho="11.5N" altitudeDescriptor="+" altitude1="3500F"/>
+				<Leg type="CF" fixType="TERMINAL_WAYPOINT" fixRegion="RK" fixIdent="IKMA6" flyOver="FALSE" recommendedType="LOCALIZER" recommendedIdent="IKMA" theta="181" rho="6.4N" magneticCourse="1" distance="5.1N" altitudeDescriptor="+" altitude1="2100F"/>
 				<Leg type="CF" fixType="RUNWAY" fixRegion="RK" fixIdent="RW36L" flyOver="TRUE" recommendedType="LOCALIZER" recommendedIdent="IKMA" theta="181" rho="1.7N" magneticCourse="1" distance="4.7N" altitudeDescriptor="A" altitude1="3.962M"/>
 			</ApproachLegs>
 			<MissedApproachLegs>
@@ -4798,13 +4803,13 @@
 			<Transition transitionType="FULL" fixType="TERMINAL_WAYPOINT" fixRegion="RK" fixIdent="GEOJE" altitude="6000F">
 				<TransitionLegs>
 					<Leg type="IF" fixType="TERMINAL_WAYPOINT" fixRegion="RK" fixIdent="GEOJE" speedLimit="230" altitudeDescriptor="+" altitude1="6000F"/>
-					<Leg type="TF" fixType="TERMINAL_WAYPOINT" fixRegion="RK" fixIdent="ID131" magneticCourse="090" speedLimit="230" altitudeDescriptor="+" altitude1="3500F"/>
+					<Leg type="TF" fixType="TERMINAL_WAYPOINT" fixRegion="RK" fixIdent="IKM13" magneticCourse="090" speedLimit="230" altitudeDescriptor="+" altitude1="3500F"/>
 				</TransitionLegs>
 			</Transition>
 			<Transition transitionType="FULL" fixType="TERMINAL_WAYPOINT" fixRegion="RK" fixIdent="NARAE" altitude="6000F">
 				<TransitionLegs>
 					<Leg type="IF" fixType="TERMINAL_WAYPOINT" fixRegion="RK" fixIdent="NARAE" speedLimit="230" altitudeDescriptor="+" altitude1="6000F"/>
-					<Leg type="TF" fixType="TERMINAL_WAYPOINT" fixRegion="RK" fixIdent="ID131" magneticCourse="270" speedLimit="230" altitudeDescriptor="+" altitude1="3500F"/>
+					<Leg type="TF" fixType="TERMINAL_WAYPOINT" fixRegion="RK" fixIdent="IKM13" magneticCourse="270" speedLimit="230" altitudeDescriptor="+" altitude1="3500F"/>
 				</TransitionLegs>
 			</Transition>
 		</Approach>
@@ -4846,7 +4851,7 @@
 				<Leg type="VA" magneticCourse="1" speedLimit="210" altitudeDescriptor="+" altitude1="500F"/>
 				<Leg type="DF" fixType="TERMINAL_WAYPOINT" fixRegion="RK" fixIdent="OPONO" flyOver="FALSE" altitudeDescriptor="A" altitude1="6000F"/>
 				<Leg type="TF" fixType="TERMINAL_WAYPOINT" fixRegion="RK" magneticCourse="231.2" fixIdent="GAYHA" flyOver="FALSE" altitudeDescriptor="A" altitude1="6000F"/>
-				<Leg type="TF" fixType="TERMINAL_WAYPOINT" fixRegion="RK" magneticCourse="166.3" fixIdent="KEVOX" flyOver="FALSE" altitudeDescriptor="+" altitude1="6000F"/>
+				<Leg type="TF" fixType="TERMINAL_WAYPOINT" fixRegion="RK" magneticCourse="166.3" fixIdent="GEOJE" flyOver="FALSE" altitudeDescriptor="+" altitude1="6000F"/>
 			</MissedApproachLegs>
 			<Transition transitionType="FULL" fixType="TERMINAL_WAYPOINT" fixRegion="RK" fixIdent="GEOJE" altitude="6000F">
 				<TransitionLegs>
@@ -4861,6 +4866,115 @@
 				</TransitionLegs>
 			</Transition>
 		</Approach>
+
+
+
+
+		<Approach type="ILS" runway="36" designator="RIGHT" suffix="Z" gpsOverlay="FALSE" fixType="TERMINAL_WAYPOINT" fixRegion="RK" fixIdent="NEIAN" altitude="2100F" heading="353.966553" missedAltitude="6000F">
+			<ApproachLegs>
+				<Leg type="IF" fixType="TERMINAL_WAYPOINT" fixRegion="RK" fixIdent="BOSPI" recommendedType="LOCALIZER" recommendedIdent="IKHE" theta="181" rho="11.5N" altitudeDescriptor="+" altitude1="3300F"/>
+				<Leg type="CF" fixType="TERMINAL_WAYPOINT" fixRegion="RK" fixIdent="NEIAN" flyOver="FALSE" recommendedType="LOCALIZER" recommendedIdent="IKHE" theta="181" rho="6.4N" magneticCourse="1" distance="5.1N" altitudeDescriptor="+" altitude1="2100F"/>
+				<Leg type="CF" fixType="RUNWAY" fixRegion="RK" fixIdent="RW36R" flyOver="TRUE" recommendedType="LOCALIZER" recommendedIdent="IKHE" theta="181" rho="1.7N" magneticCourse="1" distance="4.7N" altitudeDescriptor="A" altitude1="3.962M"/>
+			</ApproachLegs>
+			<MissedApproachLegs>
+				<Leg type="VA" magneticCourse="1" speedLimit="210" altitudeDescriptor="+" altitude1="500F"/>
+				<Leg type="DF" fixType="TERMINAL_WAYPOINT" fixRegion="RK" fixIdent="OPONO" flyOver="FALSE" altitudeDescriptor="A" altitude1="6000F"/>
+				<Leg type="TF" fixType="TERMINAL_WAYPOINT" fixRegion="RK" magneticCourse="231.2" fixIdent="GAYHA" flyOver="FALSE" altitudeDescriptor="A" altitude1="6000F"/>
+				<Leg type="TF" fixType="TERMINAL_WAYPOINT" fixRegion="RK" magneticCourse="166.3" fixIdent="KEVOX" flyOver="FALSE" altitudeDescriptor="+" altitude1="6000F"/>
+			</MissedApproachLegs>
+			<Transition transitionType="FULL" fixType="TERMINAL_WAYPOINT" fixRegion="RK" fixIdent="PEDLO" altitude="7000F">
+				<TransitionLegs>
+					<Leg type="IF" fixType="TERMINAL_WAYPOINT" fixRegion="RK" fixIdent="PEDLO" speedLimit="230" altitudeDescriptor="+" altitude1="7000F"/>
+					<Leg type="TF" fixType="TERMINAL_WAYPOINT" fixRegion="RK" fixIdent="BOSPI" magneticCourse="271.5" speedLimit="230" altitudeDescriptor="+" altitude1="3300F"/>
+				</TransitionLegs>
+			</Transition>
+			<Transition transitionType="FULL" fixType="TERMINAL_WAYPOINT" fixRegion="RK" fixIdent="KEVOX" altitude="6000F">
+				<TransitionLegs>
+					<Leg type="IF" fixType="TERMINAL_WAYPOINT" fixRegion="RK" fixIdent="KEVOX" speedLimit="230" altitudeDescriptor="+" altitude1="6000F"/>
+					<Leg type="TF" fixType="TERMINAL_WAYPOINT" fixRegion="RK" fixIdent="PK711" magneticCourse="125.8" speedLimit="230" altitudeDescriptor="+" altitude1="5000F"/>
+					<Leg type="TF" fixType="TERMINAL_WAYPOINT" fixRegion="RK" fixIdent="BOSPI" magneticCourse="091.5" speedLimit="230" altitudeDescriptor="+" altitude1="3300F"/>
+				</TransitionLegs>
+			</Transition>
+		</Approach>
+		<Approach type="ILS" runway="36" designator="RIGHT" suffix="Y" gpsOverlay="FALSE" fixType="TERMINAL_WAYPOINT" fixRegion="RK" fixIdent="IKHE6" altitude="2100F" heading="353.966553" missedAltitude="5000F">
+			<ApproachLegs>
+				<Leg type="IF" fixType="TERMINAL_WAYPOINT" fixRegion="RK" fixIdent="IKH13" recommendedType="LOCALIZER" recommendedIdent="IKHE" theta="181" rho="11.5N" altitudeDescriptor="+" altitude1="3500F"/>
+				<Leg type="CF" fixType="TERMINAL_WAYPOINT" fixRegion="RK" fixIdent="IKHE6" flyOver="FALSE" recommendedType="LOCALIZER" recommendedIdent="IKHE" theta="181" rho="6.4N" magneticCourse="1" distance="5.1N" altitudeDescriptor="+" altitude1="2100F"/>
+				<Leg type="CF" fixType="RUNWAY" fixRegion="RK" fixIdent="RW36R" flyOver="TRUE" recommendedType="LOCALIZER" recommendedIdent="IKHE" theta="181" rho="1.7N" magneticCourse="1" distance="4.7N" altitudeDescriptor="A" altitude1="3.962M"/>
+			</ApproachLegs>
+			<MissedApproachLegs>
+				<Leg type="VA" magneticCourse="1" speedLimit="210" altitudeDescriptor="+" altitude1="500F"/>
+				<Leg type="DF" fixType="TERMINAL_WAYPOINT" fixRegion="RK" fixIdent="OPONO" flyOver="FALSE" altitudeDescriptor="A" altitude1="5000F"/>
+				<Leg type="TF" fixType="TERMINAL_WAYPOINT" fixRegion="RK" magneticCourse="231.2" fixIdent="GAYHA" flyOver="FALSE" altitudeDescriptor="A" altitude1="6000F"/>
+				<Leg type="TF" fixType="TERMINAL_WAYPOINT" fixRegion="RK" magneticCourse="166.3" fixIdent="KEVOX" flyOver="FALSE" altitudeDescriptor="+" altitude1="6000F"/>
+			</MissedApproachLegs>
+			<Transition transitionType="FULL" fixType="TERMINAL_WAYPOINT" fixRegion="RK" fixIdent="GEOJE" altitude="6000F">
+				<TransitionLegs>
+					<Leg type="IF" fixType="TERMINAL_WAYPOINT" fixRegion="RK" fixIdent="GEOJE" speedLimit="230" altitudeDescriptor="+" altitude1="6000F"/>
+					<Leg type="TF" fixType="TERMINAL_WAYPOINT" fixRegion="RK" fixIdent="IKH13" magneticCourse="090" speedLimit="230" altitudeDescriptor="+" altitude1="3500F"/>
+				</TransitionLegs>
+			</Transition>
+			<Transition transitionType="FULL" fixType="TERMINAL_WAYPOINT" fixRegion="RK" fixIdent="NARAE" altitude="6000F">
+				<TransitionLegs>
+					<Leg type="IF" fixType="TERMINAL_WAYPOINT" fixRegion="RK" fixIdent="NARAE" speedLimit="230" altitudeDescriptor="+" altitude1="6000F"/>
+					<Leg type="TF" fixType="TERMINAL_WAYPOINT" fixRegion="RK" fixIdent="IKH13" magneticCourse="270" speedLimit="230" altitudeDescriptor="+" altitude1="3500F"/>
+				</TransitionLegs>
+			</Transition>
+		</Approach>
+
+		<Approach type="RNAV" runway="36" designator="RIGHT" suffix="0" gpsOverlay="FALSE" fixType="TERMINAL_WAYPOINT" fixRegion="RK" fixIdent="NEIAN" altitude="2100F" heading="353.966553" missedAltitude="5000F">
+			<ApproachLegs>
+				<Leg type="IF" fixType="TERMINAL_WAYPOINT" fixRegion="RK" fixIdent="BOSPI" theta="181" rho="11.5N" altitudeDescriptor="+" altitude1="3300F"/>
+				<Leg type="CF" fixType="TERMINAL_WAYPOINT" fixRegion="RK" fixIdent="NEIAN" flyOver="FALSE" theta="181" rho="6.4N" magneticCourse="1" distance="5.1N" altitudeDescriptor="+" altitude1="2100F"/>
+				<Leg type="CF" fixType="RUNWAY" fixRegion="RK" fixIdent="RW36R" flyOver="TRUE" theta="181" rho="1.7N" magneticCourse="1" distance="4.7N" altitudeDescriptor="A" altitude1="3.962M"/>
+			</ApproachLegs>
+			<MissedApproachLegs>
+				<Leg type="VA" magneticCourse="1" speedLimit="210" altitudeDescriptor="+" altitude1="500F"/>
+				<Leg type="DF" fixType="TERMINAL_WAYPOINT" fixRegion="RK" fixIdent="OPONO" flyOver="FALSE" altitudeDescriptor="A" altitude1="6000F"/>
+				<Leg type="TF" fixType="TERMINAL_WAYPOINT" fixRegion="RK" magneticCourse="231.2" fixIdent="GAYHA" flyOver="FALSE" altitudeDescriptor="A" altitude1="6000F"/>
+				<Leg type="TF" fixType="TERMINAL_WAYPOINT" fixRegion="RK" magneticCourse="166.3" fixIdent="KEVOX" flyOver="FALSE" altitudeDescriptor="+" altitude1="6000F"/>
+			</MissedApproachLegs>
+			<Transition transitionType="FULL" fixType="TERMINAL_WAYPOINT" fixRegion="RK" fixIdent="PEDLO" altitude="7000F">
+				<TransitionLegs>
+					<Leg type="IF" fixType="TERMINAL_WAYPOINT" fixRegion="RK" fixIdent="PEDLO" speedLimit="230" altitudeDescriptor="+" altitude1="7000F"/>
+					<Leg type="TF" fixType="TERMINAL_WAYPOINT" fixRegion="RK" fixIdent="BOSPI" magneticCourse="271.5" speedLimit="230" altitudeDescriptor="+" altitude1="3300F"/>
+				</TransitionLegs>
+			</Transition>
+			<Transition transitionType="FULL" fixType="TERMINAL_WAYPOINT" fixRegion="RK" fixIdent="KEVOX" altitude="6000F">
+				<TransitionLegs>
+					<Leg type="IF" fixType="TERMINAL_WAYPOINT" fixRegion="RK" fixIdent="KEVOX" speedLimit="230" altitudeDescriptor="+" altitude1="6000F"/>
+					<Leg type="TF" fixType="TERMINAL_WAYPOINT" fixRegion="RK" fixIdent="PK711" magneticCourse="125.8" speedLimit="230" altitudeDescriptor="+" altitude1="5000F"/>
+					<Leg type="TF" fixType="TERMINAL_WAYPOINT" fixRegion="RK" fixIdent="BOSPI" magneticCourse="091.5" speedLimit="230" altitudeDescriptor="+" altitude1="3300F"/>
+				</TransitionLegs>
+			</Transition>
+		</Approach>
+
+		<Approach type="VORDME" runway="36" designator="RIGHT" suffix="0" gpsOverlay="FALSE" fixType="TERMINAL_WAYPOINT" fixRegion="RK" fixIdent="KMH82" altitude="2100F" heading="353.966553" missedAltitude="6000F">
+			<ApproachLegs>
+				<Leg type="IF" fixType="TERMINAL_WAYPOINT" fixRegion="RK" fixIdent="KMH15" recommendedType="VOR" recommendedRegion="RK" recommendedIdent="KMH" theta="181" rho="11.5N" altitudeDescriptor="+" altitude1="3500F"/>
+				<Leg type="CF" fixType="TERMINAL_WAYPOINT" fixRegion="RK" fixIdent="KMH82" flyOver="FALSE" recommendedType="VOR" recommendedRegion="RK" recommendedIdent="KMH" theta="181" rho="6.4N" magneticCourse="1" distance="5.1N" altitudeDescriptor="+" altitude1="2100F"/>
+				<Leg type="CF" fixType="RUNWAY" fixRegion="RK" fixIdent="RW36R" flyOver="TRUE" recommendedType="VOR" recommendedRegion="RK" recommendedIdent="KMH" theta="181" rho="1.7N" magneticCourse="1" distance="4.7N" altitudeDescriptor="A" altitude1="3.962M"/>
+			</ApproachLegs>
+			<MissedApproachLegs>
+				<Leg type="VA" magneticCourse="1" speedLimit="210" altitudeDescriptor="+" altitude1="500F"/>
+				<Leg type="DF" fixType="TERMINAL_WAYPOINT" fixRegion="RK" fixIdent="OPONO" flyOver="FALSE" altitudeDescriptor="A" altitude1="6000F"/>
+				<Leg type="TF" fixType="TERMINAL_WAYPOINT" fixRegion="RK" magneticCourse="231.2" fixIdent="GAYHA" flyOver="FALSE" altitudeDescriptor="A" altitude1="6000F"/>
+				<Leg type="TF" fixType="TERMINAL_WAYPOINT" fixRegion="RK" magneticCourse="166.3" fixIdent="GEOJE" flyOver="FALSE" altitudeDescriptor="+" altitude1="6000F"/>
+			</MissedApproachLegs>
+			<Transition transitionType="FULL" fixType="TERMINAL_WAYPOINT" fixRegion="RK" fixIdent="GEOJE" altitude="6000F">
+				<TransitionLegs>
+					<Leg type="IF" fixType="TERMINAL_WAYPOINT" fixRegion="RK" fixIdent="GEOJE" speedLimit="230" altitudeDescriptor="+" altitude1="6000F"/>
+					<Leg type="TF" fixType="TERMINAL_WAYPOINT" fixRegion="RK" fixIdent="KMH15" magneticCourse="090" speedLimit="230" altitudeDescriptor="+" altitude1="3500F"/>
+				</TransitionLegs>
+			</Transition>
+			<Transition transitionType="FULL" fixType="TERMINAL_WAYPOINT" fixRegion="RK" fixIdent="NARAE" altitude="6000F">
+				<TransitionLegs>
+					<Leg type="IF" fixType="TERMINAL_WAYPOINT" fixRegion="RK" fixIdent="NARAE" speedLimit="230" altitudeDescriptor="+" altitude1="6000F"/>
+					<Leg type="TF" fixType="TERMINAL_WAYPOINT" fixRegion="RK" fixIdent="KMH15" magneticCourse="270" speedLimit="230" altitudeDescriptor="+" altitude1="3500F"/>
+				</TransitionLegs>
+			</Transition>
+		</Approach>
+
 
 		<Start type="RUNWAY" lat="35.1937405765057" lon="128.937422633171" alt="3.962M" heading="173.979995727539" number="18" designator="LEFT"/>
 		<Start type="RUNWAY" lat="35.1699021086097" lon="128.940510302782" alt="3.962M" heading="353.980010986328" number="36" designator="RIGHT"/>
