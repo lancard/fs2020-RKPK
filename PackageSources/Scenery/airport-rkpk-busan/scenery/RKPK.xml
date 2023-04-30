@@ -4530,9 +4530,9 @@
 		<Waypoint waypointIdent="PK513" lat="34.90897222222222" lon="129.03327777777778" waypointType="NAMED" waypointRegion="RK" magvar="7"/>
 		<Waypoint waypointIdent="PK514" lat="34.978972222222225" lon="129.1395" waypointType="NAMED" waypointRegion="RK" magvar="7"/>
 
-		<Waypoint waypointIdent="ZZ001" lat="35.384895" lon="128.84341305555554" waypointType="NAMED" waypointRegion="RK" magvar="7"/>
-		<Waypoint waypointIdent="ZZ002" lat="35.39252" lon="128.6755222222222" waypointType="NAMED" waypointRegion="RK" magvar="7"/>
-		<Waypoint waypointIdent="ZZ003" lat="35.12515916666667" lon="128.70493277777777" waypointType="NAMED" waypointRegion="RK" magvar="7"/>
+		<Waypoint waypointIdent="ZZ001" lat="35.384895" lon="128.84341305555554" waypointType="UNNAMED" waypointRegion="RK" magvar="7"/>
+		<Waypoint waypointIdent="ZZ002" lat="35.39252" lon="128.6755222222222" waypointType="UNNAMED" waypointRegion="RK" magvar="7"/>
+		<Waypoint waypointIdent="ZZ003" lat="35.12515916666667" lon="128.70493277777777" waypointType="UNNAMED" waypointRegion="RK" magvar="7"/>
 
 		<Departure name="OPONO3">
 			<RunwayTransitions>
@@ -4586,10 +4586,6 @@
 				<EnrouteTransitionLegs>
 					<Leg type="TF" fixType="TERMINAL_WAYPOINT" fixRegion="RK" fixIdent="ZZ001" flyOver="FALSE" magneticCourse="045"/>
 					<Leg type="TF" fixType="WAYPOINT" fixRegion="RK" fixIdent="KALOD" flyOver="FALSE" magneticCourse="342"/>
-				</EnrouteTransitionLegs>
-				<EnrouteTransitionLegs>
-					<Leg type="TF" fixType="TERMINAL_WAYPOINT" fixRegion="RK" fixIdent="ZZ001" flyOver="FALSE" magneticCourse="045"/>
-					<Leg type="TF" fixType="WAYPOINT" fixRegion="RK" fixIdent="PSN" flyOver="FALSE" magneticCourse="162"/>
 				</EnrouteTransitionLegs>
 				<EnrouteTransitionLegs>
 					<Leg type="TF" fixType="TERMINAL_WAYPOINT" fixRegion="RK" fixIdent="ZZ001" flyOver="FALSE" magneticCourse="045"/>
