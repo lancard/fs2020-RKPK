@@ -4457,6 +4457,7 @@
 		<Waypoint waypointIdent="GAYHA" lat="35.22288888888889" lon="128.63177777777778" waypointType="NAMED" waypointRegion="RK" magvar="7"/>
 		<Waypoint waypointIdent="PK711" lat="34.96441666666667" lon="128.84230555555555" waypointType="NAMED" waypointRegion="RK" magvar="7"/>
 		<Waypoint waypointIdent="OLMOG" lat="35.05891666666666" lon="128.95252777777776" waypointType="NAMED" waypointRegion="RK" magvar="7"/>
+		<Waypoint waypointIdent="AKEVI" lat="34.974722222222226" lon="128.9633333333333" waypointType="NAMED" waypointRegion="RK" magvar="7"/>
 
 
 		<Waypoint waypointIdent="ZZ001" lat="35.384895" lon="128.84341305555554" waypointType="UNNAMED" waypointRegion="RK" magvar="7"/>
@@ -4751,7 +4752,7 @@
 		</Approach>
 
 
-		
+
 		<Start type="RUNWAY" lat="35.1937405765057" lon="128.937422633171" alt="3.962M" heading="173.979995727539" number="18" designator="LEFT"/>
 		<Start type="RUNWAY" lat="35.1699021086097" lon="128.940510302782" alt="3.962M" heading="353.980010986328" number="36" designator="RIGHT"/>
 		<Start type="RUNWAY" lat="35.1933871954679" lon="128.93516600132" alt="3.962M" heading="173.960006713867" number="18" designator="RIGHT"/>
