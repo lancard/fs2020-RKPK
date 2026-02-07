@@ -1622,7 +1622,7 @@
 	<Group displayName="Light Poles" groupIndex="7" groupID="3" groupGenerated="FALSE"/>
 	<Group displayName="buildings" groupIndex="6" groupID="4" groupGenerated="FALSE"/>
 	<Group displayName="wigwag" groupIndex="3" groupID="5" groupGenerated="FALSE"/>
-	<Airport displayName="Gimhae Intl" groupIndex="4" groupID="6" groupGenerated="FALSE" name="Gimhae Intl" ident="RKPK" lat="35.18055550754070" lon="128.93805563449860" alt="3.04800009727478" magvar="0.000000" trafficScalar="1.000000" airportTestRadius="5000.00000000000000" applyFlatten="FALSE" isOnTIN="FALSE" tinColorCorrection="TRUE" starAirport="TRUE">
+	<Airport displayName="Gimhae Intl" groupIndex="4" groupID="6" groupGenerated="FALSE" name="Gimhae Intl" ident="RKPK" lat="35.18055550754070" lon="128.93805563449860" alt="3.04800009727478" magvar="0.000000" trafficScalar="1.000000" airportTestRadius="5000.00000000000000" applyFlatten="TRUE" isOnTIN="FALSE" tinColorCorrection="TRUE" starAirport="TRUE">
 		<TaxiwayPoint parentGroupID="6" groupIndex="634" index="0" type="NORMAL" orientation="FORWARD" lat="35.17821220936032" lon="128.93432370717795"/>
 		<TaxiwayPoint parentGroupID="6" groupIndex="661" index="1" type="NORMAL" orientation="FORWARD" lat="35.18455116647669" lon="128.93395476838177"/>
 		<TaxiwayPoint parentGroupID="6" groupIndex="659" index="2" type="NORMAL" orientation="FORWARD" lat="35.18419105815892" lon="128.93376052955597"/>
@@ -2915,7 +2915,7 @@
 		<Helipad displayName="Helipad 931" parentGroupID="6" groupIndex="284" type="H" lat="35.17739864093925" lon="128.94503932902828" alt="3.96839155908674" heading="58.740803" length="34.139999" width="34.139999" surface="CEMENT" closed="FALSE" transparent="TRUE"/>
 		<Helipad displayName="Helipad 932" parentGroupID="6" groupIndex="283" type="H" lat="35.17762460494171" lon="128.94486623329556" alt="3.96846754942089" heading="58.740803" length="34.139999" width="34.139999" surface="CEMENT" closed="FALSE" transparent="TRUE"/>
 		<Helipad displayName="Helipad 933" parentGroupID="6" groupIndex="282" type="H" lat="35.17786284229598" lon="128.94469687327825" alt="3.96852130070329" heading="58.740803" length="34.139999" width="34.139999" surface="CEMENT" closed="FALSE" transparent="TRUE"/>
-		<Tower parentGroupID="6" groupIndex="1381" lat="35.18172092735770" lon="128.95076930522899" alt="1.99631700872936"/>
+		<Tower parentGroupID="6" groupIndex="1381" lat="35.18172092735770" lon="128.95076930522899" alt="2.90349578751807"/>
 		<Jetway gateName="GATE" parkingNumber="1" suffix="NONE">
 			<SceneryObject lat="35.17391677073176" lon="128.94581144453471" alt="0.00000000000000" pitch="0.000533" bank="-0.000505" heading="-61.081289" imageComplexity="VERY_SPARSE" altitudeIsAgl="TRUE" snapToGround="TRUE" snapToNormal="FALSE">
 				<SimObject containerTitle="ASO_Jetway" scale="1.000000"/>
